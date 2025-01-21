@@ -1,6 +1,6 @@
 @use "./variables.scss";
-@use "./paginaPrincipal/header.scss";
-
+@use "./paginaPrincipal/header";
+@use "./paginaPrincipal/banner";
 
 *{
     padding: 0;
