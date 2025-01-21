@@ -1,3 +1,70 @@
+.contHeader {
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+  padding: 10px 0px;
+  background: teal;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.contHeader .contHeader__logo {
+  margin-left: 20px;
+  width: 100px;
+}
+.contHeader .contHeader__menu {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.contHeader .contHeader__menu .menu__ul {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.contHeader .contHeader__menu .menu__ul .menu__ul__li {
+  width: auto;
+  padding: 8px 40px;
+  margin-left: 10px;
+  list-style: none;
+  background: rgba(94, 94, 94, 0.773);
+  text-align: center;
+  transition: 0.5s all;
+}
+.contHeader .contHeader__menu .menu__ul .menu__ul__li .item {
+  text-transform: lowercase;
+  color: white;
+  font-family: poppins;
+  text-decoration: none;
+}
+.contHeader .contHeader__menu .menu__ul .menu__ul__li:hover {
+  background: rgb(189, 178, 156);
+}
+.contHeader .contHeader__menu .menu__ul .menu__ul__li:hover .item {
+  color: white;
+}
+.contHeader .contHeader__btnes {
+  margin-right: 20px;
+  width: auto;
+}
+.contHeader .contHeader__btnes .btnes__btn1 {
+  padding: 10px 40px;
+  border: none;
+  background: rgb(37, 37, 37);
+  color: rgb(255, 255, 255);
+  font-family: poppins;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.contHeader .contHeader__btnes .btnes__btn1:hover {
+  background: rgb(66, 66, 66);
+}
+
 * {
   padding: 0;
   margin: 0;
