@@ -74,7 +74,7 @@ contBanner__baseDescripcion
 contBanner__baseFigura
 */
 .contBanner {
-  margin: 120px auto;
+  margin-top: 120px;
   padding: 180px 0px;
   width: 100%;
   display: flex;
@@ -132,14 +132,16 @@ figura
 */
 .contBarraSpontsort {
   width: 100%;
+  padding: 30px 0px;
+  margin: 0px auto;
   background: rgb(242, 242, 242);
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 }
 .contBarraSpontsort .figura {
-  width: 150px;
+  width: 180px;
 }
 
 /*
