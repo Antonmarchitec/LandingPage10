@@ -6,35 +6,38 @@ contBanner__baseDescripcion
 contBanner__baseFigura
 */
 .contBanner{
-    margin: 0px auto;
+    margin: 120px auto;
     padding: 180px 0px;
     width: 100%;
-    background: rgb(47, 47, 47);
     display: flex;
     flex-direction: row;
-    justify-content:center;
+    justify-content:space-evenly;
     align-items: center;
     .contBanner__baseDescripcion{
-         width: 480px;
+         width: 600px;
+         margin-left: 20px;
          .contBanner__title{
-            font-size: 80px;
-            line-height: 100px;
+            font-size: 100px;
+            line-height: 90px;
             letter-spacing: 5px;
-            color: turquoise;
-            font-family: "Anton", serif;
-            font-weight: 300;
+            text-align: center;
+            color: variables.$colorNE;
+            font-family: "Bebas Neue", serif;
+            font-weight: 700;
             font-style: normal;
          }
 
          .contBanner__descripcion{
             margin-top: 25px;
-            color: white;
-            font-size: 16px;
+            color: variables.$colorNE;
+            font-size: 22px;
+            text-align: center;
          } 
          
          .contBanner__btnes{
             width: auto;
             margin-top: 40px;
+            text-align: center;
             .btnes__btn3{
                 margin-right: 15px;
                 padding: 10px 60px;
@@ -56,6 +59,6 @@ contBanner__baseFigura
 
     .contBanner__baseFigura{
         margin-right: 20px;
-        width: auto;
+        width: 650px;
     }
 }

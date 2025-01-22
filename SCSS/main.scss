@@ -6,7 +6,7 @@
 
 
 /*
-  font-family: "Anton", serif;
+  font-family: "Bebas Neue", serif;
   font-weight: 400;
   font-style: normal;
 
@@ -25,9 +25,12 @@
     font-family: "Poppins", serif;
     font-weight: 300;
     font-style: normal;
+    font-size: 16px;
 }
 
 main{
-    width: 1440px;
+    width: 100%;
+    max-width: 1440px;
     margin: auto;
+    background: variables.$colorBL;
 }

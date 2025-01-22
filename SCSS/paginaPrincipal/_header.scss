@@ -5,7 +5,7 @@
     width: 100%;
     margin: auto;
     padding: 10px 0px;
-    background: teal;
+    background: variables.$colorNE;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -16,7 +16,7 @@
     top: 0;
     .contHeader__logo{
         margin-left: 20px;
-        width: 70px;
+        width: 140px;
     }
 
     .contHeader__menu{
@@ -33,10 +33,9 @@
             align-items: center;
             .menu__ul__li{
                 width:auto;
-                padding: 8px 40px;
+                padding: 8px 38px;
                 margin-left: 10px;
                 list-style: none;
-                background:transparent;
                 text-align: center;
                 transition: 0.5s all ; 
 
@@ -65,12 +64,13 @@
             border: none;
             background: rgb(37, 37, 37);
             color: rgb(255, 255, 255);
-            font-family: poppins;
             cursor: pointer;
             margin-left: 10px;
+            transition: 0.5s all;
         }
         .btnes__btn1:hover{
-            background: rgb(66, 66, 66);
+            background: variables.$colorPL;
+            color: variables.$colorNE;
         }
     }
 }

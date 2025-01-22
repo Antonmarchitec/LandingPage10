@@ -2,7 +2,7 @@
   width: 100%;
   margin: auto;
   padding: 10px 0px;
-  background: teal;
+  background: #1d1d1d;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -14,7 +14,7 @@
 }
 .contHeader .contHeader__logo {
   margin-left: 20px;
-  width: 70px;
+  width: 140px;
 }
 .contHeader .contHeader__menu {
   width: auto;
@@ -32,10 +32,9 @@
 }
 .contHeader .contHeader__menu .menu__ul .menu__ul__li {
   width: auto;
-  padding: 8px 40px;
+  padding: 8px 38px;
   margin-left: 10px;
   list-style: none;
-  background: transparent;
   text-align: center;
   transition: 0.5s all;
 }
@@ -60,12 +59,13 @@
   border: none;
   background: rgb(37, 37, 37);
   color: rgb(255, 255, 255);
-  font-family: poppins;
   cursor: pointer;
   margin-left: 10px;
+  transition: 0.5s all;
 }
 .contHeader .contHeader__btnes .btnes__btn1:hover {
-  background: rgb(66, 66, 66);
+  background: #C0C0C0;
+  color: #1d1d1d;
 }
 
 /*
@@ -74,35 +74,38 @@ contBanner__baseDescripcion
 contBanner__baseFigura
 */
 .contBanner {
-  margin: 0px auto;
+  margin: 120px auto;
   padding: 180px 0px;
   width: 100%;
-  background: rgb(47, 47, 47);
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 .contBanner .contBanner__baseDescripcion {
-  width: 480px;
+  width: 600px;
+  margin-left: 20px;
 }
 .contBanner .contBanner__baseDescripcion .contBanner__title {
-  font-size: 80px;
-  line-height: 100px;
+  font-size: 100px;
+  line-height: 90px;
   letter-spacing: 5px;
-  color: turquoise;
-  font-family: "Anton", serif;
-  font-weight: 300;
+  text-align: center;
+  color: #1d1d1d;
+  font-family: "Bebas Neue", serif;
+  font-weight: 700;
   font-style: normal;
 }
 .contBanner .contBanner__baseDescripcion .contBanner__descripcion {
   margin-top: 25px;
-  color: white;
-  font-size: 16px;
+  color: #1d1d1d;
+  font-size: 22px;
+  text-align: center;
 }
 .contBanner .contBanner__baseDescripcion .contBanner__btnes {
   width: auto;
   margin-top: 40px;
+  text-align: center;
 }
 .contBanner .contBanner__baseDescripcion .contBanner__btnes .btnes__btn3 {
   margin-right: 15px;
@@ -120,7 +123,7 @@ contBanner__baseFigura
 }
 .contBanner .contBanner__baseFigura {
   margin-right: 20px;
-  width: auto;
+  width: 650px;
 }
 
 /*
@@ -140,7 +143,7 @@ figura
 }
 
 /*
-  font-family: "Anton", serif;
+  font-family: "Bebas Neue", serif;
   font-weight: 400;
   font-style: normal;
 
@@ -157,11 +160,14 @@ figura
   font-family: "Poppins", serif;
   font-weight: 300;
   font-style: normal;
+  font-size: 16px;
 }
 
 main {
-  width: 1440px;
+  width: 100%;
+  max-width: 1440px;
   margin: auto;
+  background: #FFFFFF;
 }
 
 /*# sourceMappingURL=main.css.map */
