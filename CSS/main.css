@@ -97,28 +97,28 @@ contBanner__baseFigura
   font-style: normal;
 }
 .contBanner .contBanner__baseDescripcion .contBanner__descripcion {
-  margin-top: 25px;
+  margin-top: 30px;
   color: #1d1d1d;
   font-size: 22px;
   text-align: center;
 }
 .contBanner .contBanner__baseDescripcion .contBanner__btnes {
   width: auto;
-  margin-top: 40px;
+  margin-top: 50px;
   text-align: center;
 }
 .contBanner .contBanner__baseDescripcion .contBanner__btnes .btnes__btn3 {
   margin-right: 15px;
   padding: 10px 60px;
-  border: 2px solid teal;
-  color: white;
-  background: transparent;
+  border: 2px solid #1d1d1d;
+  color: #FFFFFF;
+  background: #1d1d1d;
   transition: 0.2s ease-in-out;
 }
 .contBanner .contBanner__baseDescripcion .contBanner__btnes .btnes__btn3:hover {
-  border: 2px solid black;
-  background: rgb(255, 255, 255);
-  color: black;
+  border: 2px solid #FFFFFF;
+  background: #C0C0C0;
+  color: #1d1d1d;
   cursor: pointer;
 }
 .contBanner .contBanner__baseFigura {

@@ -28,7 +28,7 @@ contBanner__baseFigura
          }
 
          .contBanner__descripcion{
-            margin-top: 25px;
+            margin-top: 30px;
             color: variables.$colorNE;
             font-size: 22px;
             text-align: center;
@@ -36,21 +36,21 @@ contBanner__baseFigura
          
          .contBanner__btnes{
             width: auto;
-            margin-top: 40px;
+            margin-top: 50px;
             text-align: center;
             .btnes__btn3{
                 margin-right: 15px;
                 padding: 10px 60px;
-                border: 2px solid teal;
-                color: white;
-                background:transparent;
+                border: 2px solid variables.$colorNE;
+                color: variables.$colorBL;
+                background:variables.$colorNE;
                 transition: 0.2s ease-in-out;
             }
 
             .btnes__btn3:hover{
-                border: 2px solid black;
-                background: rgb(255, 255, 255);
-                color: black;
+                border: 2px solid variables.$colorBL;
+                background: variables.$colorPL;
+                color: variables.$colorNE;
                 cursor: pointer;
             }
          }
