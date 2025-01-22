@@ -71,8 +71,8 @@ contBanner__baseDescripcion
 contBanner__baseFigura
 */
 .contBanner {
-  margin-top: 20px;
-  padding: 100px 0px;
+  margin: 20px auto;
+  padding: 180px 0px;
   width: 100%;
   max-width: 1440px;
   background: rgb(47, 47, 47);
@@ -94,12 +94,12 @@ contBanner__baseFigura
 .contBanner .contBanner__baseDescripcion .contBanner__descripcion {
   margin-top: 20px;
   color: white;
-  font-size: 18px;
+  font-size: 16px;
   font-family: poppins;
 }
 .contBanner .contBanner__baseDescripcion .contBanner__btnes {
   width: auto;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .contBanner .contBanner__baseDescripcion .contBanner__btnes .btnes__btn3 {
   margin-right: 10px;
@@ -110,10 +110,14 @@ contBanner__baseFigura
   transition: 0.2s ease-in-out;
 }
 .contBanner .contBanner__baseDescripcion .contBanner__btnes .btnes__btn3:hover {
-  border: 2px solid transparent;
-  background: white;
+  border: 2px solid black;
+  background: rgb(255, 255, 255);
   color: black;
   cursor: pointer;
+}
+.contBanner .contBanner__baseFigura {
+  margin-right: 20px;
+  width: auto;
 }
 
 * {
