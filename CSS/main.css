@@ -11,7 +11,7 @@
 }
 .contHeader .contHeader__logo {
   margin-left: 20px;
-  width: 100px;
+  width: 70px;
 }
 .contHeader .contHeader__menu {
   width: auto;
@@ -85,24 +85,25 @@ contBanner__baseFigura
   width: 480px;
 }
 .contBanner .contBanner__baseDescripcion .contBanner__title {
-  font-size: 60px;
-  font-family: poppins;
-  line-height: 70px;
-  letter-spacing: 2px;
+  font-size: 80px;
+  line-height: 100px;
+  letter-spacing: 5px;
   color: turquoise;
+  font-family: "Anton", serif;
+  font-weight: 300;
+  font-style: normal;
 }
 .contBanner .contBanner__baseDescripcion .contBanner__descripcion {
-  margin-top: 20px;
+  margin-top: 25px;
   color: white;
   font-size: 16px;
-  font-family: poppins;
 }
 .contBanner .contBanner__baseDescripcion .contBanner__btnes {
   width: auto;
   margin-top: 40px;
 }
 .contBanner .contBanner__baseDescripcion .contBanner__btnes .btnes__btn3 {
-  margin-right: 10px;
+  margin-right: 15px;
   padding: 10px 60px;
   border: 2px solid teal;
   color: white;
@@ -120,10 +121,34 @@ contBanner__baseFigura
   width: auto;
 }
 
+/*
+contBarraSpontsort
+figura
+*/
+.contBarraSpontsort {
+  width: 100%;
+  padding: 10px 0px;
+  background: grey;
+}
+
+/*
+  font-family: "Anton", serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+*/
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 /*# sourceMappingURL=main.css.map */
