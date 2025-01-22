@@ -7,7 +7,14 @@ figura
 */
 
 .contBarraSpontsort{
-    width: 100%;
-    padding: 10px 0px;
-    background: grey;
+    width: 90%;
+    margin: auto;
+    background: rgb(242, 242, 242);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    .figura{
+        width: 150px;
+    }
 }

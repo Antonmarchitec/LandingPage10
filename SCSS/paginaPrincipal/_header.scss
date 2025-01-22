@@ -3,7 +3,6 @@
 
 .contHeader{
     width: 100%;
-    max-width: 1440px;
     margin: auto;
     padding: 10px 0px;
     background: teal;
@@ -11,10 +10,15 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
     .contHeader__logo{
         margin-left: 20px;
         width: 70px;
     }
+
     .contHeader__menu{
         width:auto;
         display: flex;
@@ -32,7 +36,7 @@
                 padding: 8px 40px;
                 margin-left: 10px;
                 list-style: none;
-                background:rgba(94, 94, 94, 0.773);
+                background:transparent;
                 text-align: center;
                 transition: 0.5s all ; 
 
@@ -44,7 +48,7 @@
                 }
             }
             .menu__ul__li:hover{
-                background: rgb(189, 178, 156);
+                background: rgb(72, 72, 72);
                 .item{
                     color:white;
                 }
@@ -52,6 +56,7 @@
         }
         
     }
+
     .contHeader__btnes{
         margin-right: 20px;
         width:auto;
