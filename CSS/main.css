@@ -128,8 +128,7 @@ contBarraSpontsort
 figura
 */
 .contBarraSpontsort {
-  width: 90%;
-  margin: auto;
+  width: 100%;
   background: rgb(242, 242, 242);
   display: flex;
   flex-direction: row;
