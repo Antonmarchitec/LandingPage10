@@ -9,7 +9,7 @@ BlogBloqueTexto
 
 
 .contBlogAutomotriz{
-    margin-top: 30px;
+    margin-top: 50px;
     width: 100%;
     padding: 10px 0px;
     display: flex;
@@ -44,5 +44,12 @@ BlogBloqueTexto
             text-align: center;
         }
        
+        .line{
+            width: 200px;
+            height: 4px;
+            background: variables.$colorPL;
+            border: none;
+            margin: 50px auto;
+        }
     }
 }

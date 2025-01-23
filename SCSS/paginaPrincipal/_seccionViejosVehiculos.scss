@@ -1,0 +1,53 @@
+@use "../variables.scss";
+
+
+/*
+contviejosVehiculos
+viejosVehiculosImage
+viejosVehiculosImageTextoDes
+viejosVehiculosImageTextoDes__title
+viejosVehiculosImageTextoDes__texto
+viejosVehiculosImageTextoDes__btn
+*/
+.contViejosVehiculos{
+    width: 100%;
+    margin: 50px auto;
+    padding: 80px 0px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    .viejosVehiculosImage{
+        width: 800px;
+
+    }
+
+    .viejosVehiculosImageTextoDes{
+        width: 450px;
+        padding: 10px 0px;
+        .viejosVehiculosImageTextoDes__title{
+            color: variables.$colorNE;
+            font-size: 45px;
+            font-weight: 500;
+        }
+
+        .viejosVehiculosImageTextoDes__texto{
+            margin-top: 20px;
+            color: variables.$colorNE;
+        }
+
+        .viejosVehiculosImageTextoDes__btn{
+            margin-top: 30px;
+            padding: 10px 50px;
+            border: none;
+            background: variables.$colorNE;
+            color: variables.$colorBL;
+            transition: 0.2s all;
+        }
+        .viejosVehiculosImageTextoDes__btn:hover{
+            background: variables.$colorPL;
+            color: variables.$colorNE;
+            cursor: pointer;
+        }
+    }
+}

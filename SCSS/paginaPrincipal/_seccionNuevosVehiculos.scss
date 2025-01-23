@@ -1,0 +1,55 @@
+@use "../variables.scss";
+
+
+/*
+contNuevosVehiculos
+nuevosVehiculosImage
+nuevosVehiculosImageTextoDes
+nuevosVehiculosImageTextoDes__title
+nuevosVehiculosImageTextoDes__texto
+nuevosVehiculosImageTextoDes__btn
+*/
+
+
+.contNuevosVehiculos{
+    width: 100%;
+    margin: 50px auto;
+    padding: 80px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    .nuevosVehiculosImage{
+        width: 700px;
+
+    }
+
+    .nuevosVehiculosImageTextoDes{
+        width: 450px;
+        padding: 10px 0px;
+        .nuevosVehiculosImageTextoDes__title{
+            color: variables.$colorNE;
+            font-size: 45px;
+            font-weight: 500;
+        }
+
+        .nuevosVehiculosImageTextoDes__texto{
+            margin-top: 20px;
+            color: variables.$colorNE;
+        }
+
+        .nuevosVehiculosImageTextoDes__btn{
+            margin-top: 30px;
+            padding: 10px 50px;
+            border: none;
+            background: variables.$colorNE;
+            color: variables.$colorBL;
+            transition: 0.2s all;
+        }
+        .nuevosVehiculosImageTextoDes__btn:hover{
+            background: variables.$colorPL;
+            color: variables.$colorNE;
+            cursor: pointer;
+        }
+    }
+}

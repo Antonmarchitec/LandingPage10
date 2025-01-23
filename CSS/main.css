@@ -152,7 +152,7 @@ BlogBloqueTitle
 BlogBloqueTexto
 */
 .contBlogAutomotriz {
-  margin-top: 30px;
+  margin-top: 50px;
   width: 100%;
   padding: 10px 0px;
   display: flex;
@@ -184,6 +184,107 @@ BlogBloqueTexto
   margin-top: 30px;
   color: #1d1d1d;
   text-align: center;
+}
+.contBlogAutomotriz .contBlogBloque .line {
+  width: 200px;
+  height: 4px;
+  background: #C0C0C0;
+  border: none;
+  margin: 50px auto;
+}
+
+/*
+contNuevosVehiculos
+nuevosVehiculosImage
+nuevosVehiculosImageTextoDes
+nuevosVehiculosImageTextoDes__title
+nuevosVehiculosImageTextoDes__texto
+nuevosVehiculosImageTextoDes__btn
+*/
+.contNuevosVehiculos {
+  width: 100%;
+  margin: 50px auto;
+  padding: 80px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.contNuevosVehiculos .nuevosVehiculosImage {
+  width: 700px;
+}
+.contNuevosVehiculos .nuevosVehiculosImageTextoDes {
+  width: 450px;
+  padding: 10px 0px;
+}
+.contNuevosVehiculos .nuevosVehiculosImageTextoDes .nuevosVehiculosImageTextoDes__title {
+  color: #1d1d1d;
+  font-size: 45px;
+  font-weight: 500;
+}
+.contNuevosVehiculos .nuevosVehiculosImageTextoDes .nuevosVehiculosImageTextoDes__texto {
+  margin-top: 20px;
+  color: #1d1d1d;
+}
+.contNuevosVehiculos .nuevosVehiculosImageTextoDes .nuevosVehiculosImageTextoDes__btn {
+  margin-top: 30px;
+  padding: 10px 50px;
+  border: none;
+  background: #1d1d1d;
+  color: #FFFFFF;
+  transition: 0.2s all;
+}
+.contNuevosVehiculos .nuevosVehiculosImageTextoDes .nuevosVehiculosImageTextoDes__btn:hover {
+  background: #C0C0C0;
+  color: #1d1d1d;
+  cursor: pointer;
+}
+
+/*
+contviejosVehiculos
+viejosVehiculosImage
+viejosVehiculosImageTextoDes
+viejosVehiculosImageTextoDes__title
+viejosVehiculosImageTextoDes__texto
+viejosVehiculosImageTextoDes__btn
+*/
+.contViejosVehiculos {
+  width: 100%;
+  margin: 50px auto;
+  padding: 80px 0px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+}
+.contViejosVehiculos .viejosVehiculosImage {
+  width: 800px;
+}
+.contViejosVehiculos .viejosVehiculosImageTextoDes {
+  width: 450px;
+  padding: 10px 0px;
+}
+.contViejosVehiculos .viejosVehiculosImageTextoDes .viejosVehiculosImageTextoDes__title {
+  color: #1d1d1d;
+  font-size: 45px;
+  font-weight: 500;
+}
+.contViejosVehiculos .viejosVehiculosImageTextoDes .viejosVehiculosImageTextoDes__texto {
+  margin-top: 20px;
+  color: #1d1d1d;
+}
+.contViejosVehiculos .viejosVehiculosImageTextoDes .viejosVehiculosImageTextoDes__btn {
+  margin-top: 30px;
+  padding: 10px 50px;
+  border: none;
+  background: #1d1d1d;
+  color: #FFFFFF;
+  transition: 0.2s all;
+}
+.contViejosVehiculos .viejosVehiculosImageTextoDes .viejosVehiculosImageTextoDes__btn:hover {
+  background: #C0C0C0;
+  color: #1d1d1d;
+  cursor: pointer;
 }
 
 /*
