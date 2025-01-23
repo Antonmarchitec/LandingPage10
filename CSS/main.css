@@ -134,7 +134,7 @@ figura
   width: 100%;
   padding: 30px 0px;
   margin: 0px auto;
-  background: rgb(242, 242, 242);
+  background: rgba(239, 239, 239, 0.826);
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -142,6 +142,48 @@ figura
 }
 .contBarraSpontsort .figura {
   width: 180px;
+}
+
+/*
+contBlogAutomotriz
+contBlogBloque
+BlogBloqueImage
+BlogBloqueTitle
+BlogBloqueTexto
+*/
+.contBlogAutomotriz {
+  margin-top: 30px;
+  width: 100%;
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.contBlogAutomotriz .contBlogBloque {
+  width: 400px;
+  height: 450px;
+  padding: 30px 35px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px #C0C0C0;
+}
+.contBlogAutomotriz .contBlogBloque .BlogBloqueImage {
+  width: 120px;
+  margin: auto;
+}
+.contBlogAutomotriz .contBlogBloque .BlogBloqueTitle {
+  margin-top: 18px;
+  width: auto;
+  height: auto;
+  text-align: center;
+  line-height: 35px;
+  color: #C0C0C0;
+  font-size: 32px;
+}
+.contBlogAutomotriz .contBlogBloque .BlogBloqueTexto {
+  margin-top: 30px;
+  color: #1d1d1d;
+  text-align: center;
 }
 
 /*

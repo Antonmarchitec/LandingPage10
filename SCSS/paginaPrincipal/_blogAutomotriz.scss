@@ -1,0 +1,48 @@
+@use "../variables.scss";
+/*
+contBlogAutomotriz
+contBlogBloque
+BlogBloqueImage
+BlogBloqueTitle
+BlogBloqueTexto
+*/
+
+
+.contBlogAutomotriz{
+    margin-top: 30px;
+    width: 100%;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    .contBlogBloque{
+        width: 400px;
+        height: 450px;
+        padding: 30px 35px;
+        background: rgb(255, 255, 255);
+        box-shadow: 0px 0px 10px variables.$colorPL;
+
+        .BlogBloqueImage{
+            width: 120px;
+            margin: auto;
+        }
+
+        .BlogBloqueTitle{
+            margin-top: 18px;
+            width: auto;
+            height: auto;
+            text-align: center;
+            line-height: 35px;
+            color: variables.$colorPL;
+            font-size: 32px;
+        }
+
+        .BlogBloqueTexto{
+            margin-top: 30px;
+            color: variables.$colorNE;
+            text-align: center;
+        }
+       
+    }
+}
