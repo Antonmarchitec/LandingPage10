@@ -32,7 +32,6 @@ PartesImagen
         margin: 80px auto;
         width: 90%;
         padding: 50px 0px;
-        background: grey;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -42,13 +41,12 @@ PartesImagen
             width: 300px;
             height: 600px;
             padding: 10px 0px;
-            background: rgb(106, 102, 92);
             position: relative;
             .partesBlokA__cuadro{
                 width: 300px;
                 padding: 20px;
                 margin-bottom: 10px;
-                background: rgb(194, 193, 193);
+                background: variables.$colorRO;
                 display: flex;
                 flex-direction: row;
                 justify-content: start;
@@ -58,10 +56,12 @@ PartesImagen
                 .iconCars{
                     font-size:50px;
                     margin-right: 10px;
+                    color: variables.$colorNE;
                 }
                 
                 .cuadroText{
                     font-size: 28px;
+                    color: variables.$colorBL;
                 }
             }
 
@@ -69,7 +69,7 @@ PartesImagen
                 width: 300px;
                 padding: 20px;
                 margin-bottom: 10px;
-                background: rgb(194, 193, 193);
+                background: variables.$colorRO;
                 display: flex;
                 flex-direction: row;
                 justify-content: start;
@@ -80,10 +80,13 @@ PartesImagen
                 .iconCars{
                     font-size:50px;
                     margin-right: 10px;
+                    color: variables.$colorNE;
+
                 }
                 
                 .cuadroText{
                     font-size: 28px;
+                    color: variables.$colorBL;
                 }
             }
 
@@ -91,7 +94,7 @@ PartesImagen
                 width: 300px;
                 padding: 20px;
                 margin-bottom: 10px;
-                background: rgb(194, 193, 193);
+                background: variables.$colorRO;
                 display: flex;
                 flex-direction: row;
                 justify-content: start;
@@ -102,10 +105,13 @@ PartesImagen
                 .iconCars{
                     font-size:50px;
                     margin-right: 10px;
+                    color: variables.$colorNE;
+
                 }
                 
                 .cuadroText{
                     font-size: 28px;
+                    color: variables.$colorBL;
                 }
             }
 
@@ -113,7 +119,7 @@ PartesImagen
                 width: 300px;
                 padding: 20px;
                 margin-bottom: 10px;
-                background: rgb(194, 193, 193);
+                background: variables.$colorRO;
                 display: flex;
                 flex-direction: row;
                 justify-content: start;
@@ -124,10 +130,13 @@ PartesImagen
                 .iconCars{
                     font-size:50px;
                     margin-right: 10px;
+                    color: variables.$colorNE;
+
                 }
                 
                 .cuadroText{
                     font-size: 28px;
+                    color: variables.$colorBL;
                 }
             }
             
@@ -135,7 +144,7 @@ PartesImagen
 
 
         .PartesImagen{
-            width: 700px;
+            width: 580px;
         }
         
 
@@ -143,13 +152,12 @@ PartesImagen
             width: 300px;
             height: 600px;
             padding: 10px 0px;
-            background: rgb(97, 84, 50);
             position: relative;
             .partesBlokE__cuadro{
                 width: 300px;
                 padding:20px;
                 margin-bottom: 10px;
-                background: rgb(194, 193, 193);
+                background: variables.$colorRO;
                 display: flex;
                 flex-direction: row-reverse;
                 justify-content: end;
@@ -160,10 +168,14 @@ PartesImagen
                     font-size:50px;
                     margin-right: initial;
                     margin-left: 10px;
+                    color: variables.$colorNE;
+
+
                 }
                 
                 .cuadroText{
                     font-size: 28px;
+                    color: variables.$colorBL;
                 }
             }
 
@@ -171,7 +183,7 @@ PartesImagen
                 width: 300px;
                 padding: 20px;
                 margin-bottom: 10px;
-                background: rgb(194, 193, 193);
+                background: variables.$colorRO;
                 display: flex;
                 flex-direction: row-reverse;
                 justify-content: end;
@@ -182,10 +194,13 @@ PartesImagen
                 .iconCars{
                     font-size:50px;
                     margin-left: 10px;
+                    color: variables.$colorNE;
+
                 }
                 
                 .cuadroText{
                     font-size: 28px;
+                    color: variables.$colorBL;
                 }
             }
 
@@ -193,7 +208,7 @@ PartesImagen
                 width: 300px;
                 padding: 20px;
                 margin-bottom: 10px;
-                background: rgb(194, 193, 193);
+                background: variables.$colorRO;
                 display: flex;
                 flex-direction: row-reverse;
                 justify-content: end;
@@ -203,10 +218,13 @@ PartesImagen
                 .iconCars{
                     font-size:50px;
                     margin-left: 10px;
+                    color: variables.$colorNE;
+
                 }
                 
                 .cuadroText{
                     font-size: 28px;
+                    color: variables.$colorBL;
                 }
             }
 
@@ -214,7 +232,7 @@ PartesImagen
                 width: 300px;
                 padding: 20px;
                 margin-bottom: 10px;
-                background: rgb(194, 193, 193);
+                background: variables.$colorRO;
                 display: flex;
                 flex-direction: row-reverse;
                 justify-content: end;
@@ -225,10 +243,13 @@ PartesImagen
                 .iconCars{
                     font-size:50px;
                     margin-left: 10px;
+                    color: variables.$colorNE;
+
                 }
                 
                 .cuadroText{
                     font-size: 28px;
+                    color: variables.$colorBL;
                 }
             }
 
