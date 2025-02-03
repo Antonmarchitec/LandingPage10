@@ -29,8 +29,8 @@ PartesImagen
     }
 
     .contPartesVehiculos__section{
-        margin-top: 250px;
-        width: 100%;
+        margin: 80px auto;
+        width: 90%;
         padding: 50px 0px;
         background: grey;
         display: flex;
@@ -135,9 +135,10 @@ PartesImagen
 
 
         .PartesImagen{
-            width: 600px;
+            width: 700px;
         }
         
+
         .partesBlokB{
             width: 300px;
             height: 600px;
@@ -146,7 +147,7 @@ PartesImagen
             position: relative;
             .partesBlokE__cuadro{
                 width: 300px;
-                padding: 30px 20px;
+                padding:20px;
                 margin-bottom: 10px;
                 background: rgb(194, 193, 193);
                 display: flex;
@@ -154,8 +155,7 @@ PartesImagen
                 justify-content: end;
                 align-items: center;
                 position: absolute;
-                top: 0;
-                left: 0;
+                right: 100px;
                 .iconCars{
                     font-size:50px;
                     margin-right: initial;
@@ -169,7 +169,7 @@ PartesImagen
 
             .partesBlokF__cuadro{
                 width: 300px;
-                padding: 30px 20px;
+                padding: 20px;
                 margin-bottom: 10px;
                 background: rgb(194, 193, 193);
                 display: flex;
@@ -178,7 +178,7 @@ PartesImagen
                 align-items: center;
                 position: absolute;
                 top: 150px;
-                left: 0;
+                right: 20px;
                 .iconCars{
                     font-size:50px;
                     margin-left: 10px;
@@ -191,7 +191,7 @@ PartesImagen
 
             .partesBlokG__cuadro{
                 width: 300px;
-                padding: 30px 20px;
+                padding: 20px;
                 margin-bottom: 10px;
                 background: rgb(194, 193, 193);
                 display: flex;
@@ -212,7 +212,7 @@ PartesImagen
 
             .partesBlokH__cuadro{
                 width: 300px;
-                padding: 30px 20px;
+                padding: 20px;
                 margin-bottom: 10px;
                 background: rgb(194, 193, 193);
                 display: flex;
@@ -221,6 +221,7 @@ PartesImagen
                 align-items: center;
                 position: absolute;
                 bottom: 0;
+                right: 130px;
                 .iconCars{
                     font-size:50px;
                     margin-left: 10px;
