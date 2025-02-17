@@ -1,27 +1,21 @@
 [
     {
         "id":1,
-        "placa":"GTD52",
+        "placa":"GTD12",
         "title": "Mercedez",
-        "imagen":"./IMAGES/Vagon2.png"
+        "imagen":"https://w7.pngwing.com/pngs/913/112/png-transparent-2018-chevrolet-impala-ls-2015-chevrolet-impala-car-2013-chevrolet-impala-ltz-citroen-c-elysee-hd-compact-car-sedan-car.png"
     },
     {
         "id":2,
-        "placa":"GTD52",
-        "title": "Mercedez",
-        "imagen":"./IMAGES/Vagon2.png"
+        "placa":"GTD123",
+        "title": "Mazda",
+        "imagen":"https://e7.pngegg.com/pngimages/716/708/png-clipart-hyundai-elantra-compact-car-citroen-c3-hyundai-compact-car-sedan.png"
     },
     {
         "id":3,
-        "placa":"GTD52",
-        "title": "Mercedez",
-        "imagen":"./IMAGES/Vagon2.png"
-    },
-    {
-        "id":4,
-        "placa":"GTD52",
-        "title": "Mercedez",
-        "imagen":"./IMAGES/Vagon2.png"
+        "placa":"GTD12541",
+        "title": "Toyota",
+        "imagen":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8Sdv4bkyWvagkNbbVCYXFz-_bLaR-mVZJwA&s"
     }
    
 ]

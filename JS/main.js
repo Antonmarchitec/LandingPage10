@@ -30,12 +30,31 @@ const funcionSecundaria = (data) =>{
         
         contTemplate.querySelector("#imgCar").setAttribute("src", element.imagen)
         contTemplate.querySelector("#imgCar").setAttribute("alt", element.title)
+        contTemplate.querySelector("#titleCar").textContent = element.title
+        contTemplate.querySelector("#numCar").textContent = element.placa
+        contTemplate.querySelector("#btnCar").dataset.idBtn = element.id 
+
+
 
         let templateClone = contTemplate.cloneNode(true)
         contFragment.appendChild(templateClone)
     });
 
     contTargetCard.appendChild(contFragment)
+
+    document.addEventListener("click", e =>{
+        if(e.target.dataset.idBtn === "1"){
+            console.log("Presionaste el boton uno")
+        }else if(e.target.dataset.idBtn === "2"){
+            console.log("Presionaste el boton dos")
+        }else if(e.target.dataset.idBtn === "3"){
+            console.log("Presionaste el boton tres")
+        }else if(e.target.dataset.idBtn === "4"){
+            console.log("Presionaste el boton cuatro")
+        }
+    } )
+
+
 
 
 }

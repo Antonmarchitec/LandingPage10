@@ -16,7 +16,7 @@ targetBtn
     width: 100%;
     max-width: 1440px;
     padding: 100px 0px;
-    background: rgb(214, 140, 140);
+    background: rgb(236, 236, 236);
     text-align: center;
     .contTargetCard__title{
         color: black;
@@ -33,7 +33,6 @@ targetBtn
 
     .contTargetCard__block{
         width: 90%;
-        background: rgb(191, 191, 191);
         margin: auto;
         padding: 30px 20px;
         display: flex;
@@ -44,6 +43,7 @@ targetBtn
         .contTargetCard__blockCard{
             width: 320px;
             height: 400px;
+            margin: 20px 0px;
             background: rgb(56, 56, 56);
             padding: 30px 20px;
             /*
@@ -89,6 +89,28 @@ targetBtn
                     font-size: 20px;
                 }
             }
+        }
+    }
+
+    .contNumeros{
+        width: 400px;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        cursor: pointer;
+        .numeros{
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background: black;
+            color: wheat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 700;
+            font-size: 30px;
+
         }
     }
 }
