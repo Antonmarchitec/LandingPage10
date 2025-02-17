@@ -1,0 +1,27 @@
+[
+    {
+        "id":1,
+        "placa":"GTD52",
+        "title": "Mercedez",
+        "imagen":"./IMAGES/Vagon2.png"
+    },
+    {
+        "id":2,
+        "placa":"GTD52",
+        "title": "Mercedez",
+        "imagen":"./IMAGES/Vagon2.png"
+    },
+    {
+        "id":3,
+        "placa":"GTD52",
+        "title": "Mercedez",
+        "imagen":"./IMAGES/Vagon2.png"
+    },
+    {
+        "id":4,
+        "placa":"GTD52",
+        "title": "Mercedez",
+        "imagen":"./IMAGES/Vagon2.png"
+    }
+   
+]

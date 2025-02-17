@@ -16,12 +16,13 @@ targetBtn
     width: 100%;
     max-width: 1440px;
     padding: 100px 0px;
-    background: rgb(236, 236, 236);
+    background: rgb(214, 140, 140);
     text-align: center;
     .contTargetCard__title{
         color: black;
         font-size: 50px;
         font-weight: 500;
+        background-image: url(/IMAGES/auto2.png);
     }
 
     .contTargetCard__description{
