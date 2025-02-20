@@ -660,9 +660,9 @@ targetBtn
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  background: black;
+  background: rgb(81, 81, 81);
   color: wheat;
-  color: #122a42;
+  color: #b2b8be;
   display: flex;
   justify-content: center;
   align-items: center;

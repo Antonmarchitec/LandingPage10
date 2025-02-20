@@ -46,14 +46,18 @@ const funcionSecundaria = (data) =>{
         contTemplate.querySelector("#titleCar").textContent = element.title
         contTemplate.querySelector("#numCar").textContent = element.placa
         contTemplate.querySelector("#btnCar").dataset.idBtn = element.id 
+        contTemplate.querySelector("#blockCar").style.background = element.background
+        contTemplate.querySelector("#blockCar").style.boxShadow = element.border
 
-
+0
 
         let templateClone = contTemplate.cloneNode(true)
         contFragment.appendChild(templateClone)
     });
 
     contTargetCard.appendChild(contFragment)
+
+
 
     document.addEventListener("click", e =>{
         if(e.target.dataset.idBtn === "1"){
