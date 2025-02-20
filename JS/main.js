@@ -18,37 +18,55 @@ const funcionPrincipal = async () =>{
         funcionTargetRoja(data)
 
 
+
+        let numeroUno = document.querySelector("#num1")
+        let numeroDos = document.querySelector("#num2")
+        let numeroTres = document.querySelector("#num3")
+
         document.addEventListener("click", (e)=>{
             if(e.target.id === "num1"){
                 console.log("Presionaste el num1")
                 contTargetCard.textContent = funcionTargetRoja(data)
                 funcionTargetRoja(data)
 
-                let numeroUno = document.querySelector("#num1")
                 numeroUno.style.background = "#f90000"
                 numeroUno.style.transition = "0.5s all"
                 numeroUno.style.color = "white"
 
+                numeroDos.style.background = "initial"
+                numeroDos.style.color = "initial"
 
+                numeroTres.style.background = "initial"
+                numeroTres.style.color = "initial"
 
             }else if(e.target.id === "num2"){
                 console.log("Presionaste el num2")
                 contTargetCard.textContent = funcionTargetAmarilla(data)
                 funcionTargetAmarilla(data)
 
-                let numeroDos = document.querySelector("#num2")
                 numeroDos.style.background = "#ffef11"
                 numeroDos.style.transition = "0.5s all"
                 numeroDos.style.color = "white"
+
+                numeroUno.style.background = "initial"
+                numeroUno.style.color = "initial"
+
+                numeroTres.style.background = "initial"
+                numeroTres.style.color = "initial"
             }else if(e.target.id === "num3"){
                 console.log("Presionaste el num3")
                 contTargetCard.textContent = funcionTargetVerde(data)
                 funcionTargetVerde(data)
 
-                let numeroTres = document.querySelector("#num3")
                 numeroTres.style.background = "#1e9104"
                 numeroTres.style.transition = "0.5s all"
                 numeroTres.style.color = "white"
+
+                numeroDos.style.background = "initial"
+                numeroDos.style.color = "initial"
+
+                numeroUno.style.background = "initial"
+                numeroUno.style.color = "initial"
             }
         })
 
