@@ -671,6 +671,46 @@ targetBtn
 }
 
 /*
+contSection
+    contSectionBloqueA
+    BtnA
+    BtnB
+contSectionBloqueB
+    sectionB
+    sectionName
+    sectionApellido
+    sectionCorreo
+    sectionPhone
+
+*/
+.contSection {
+  width: 90%;
+  max-width: 1440px;
+  padding: 20px 0px;
+  margin: auto;
+  background: grey;
+}
+.contSection .contSectionBloqueA {
+  width: 500px;
+  padding: 10px 0px;
+}
+.contSection .contSectionBloqueA .Btn {
+  padding: 10px 30px;
+  background: rgb(186, 29, 29);
+  color: white;
+  border: none;
+}
+.contSection .contSectionBloqueA .Btn:hover {
+  cursor: pointer;
+}
+.contSection .contSectionBloqueB {
+  width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: rgb(197, 197, 197);
+}
+
+/*
   font-family: "Bebas Neue", serif;
   font-weight: 400;
   font-style: normal;
