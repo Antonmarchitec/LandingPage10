@@ -12,7 +12,9 @@
       "updatedAt": "2017-07-14T17:17:33.010Z",
       "createdAt": "2017-07-14T17:17:33.010Z",
       "__v": 0
-    }, {
+    }, 
+    
+    {
       "_id": "5968fcad629fa84ab65a5246",
       "first_name": "Taryn",
       "last_name": "Dietrich",

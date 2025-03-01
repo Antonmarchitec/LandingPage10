@@ -125,6 +125,8 @@ const funcionTargetVerde = (data) =>{
 }
 
 
+
+
 //element.style.transitionProperty = "width";
 //element.style.transitionDuration = "2s";
 //element.style.width = "200px";
@@ -134,3 +136,68 @@ const funcionTargetVerde = (data) =>{
 
 
 
+let sectionB = document.querySelector("#sectionB")
+let templateSection = document.querySelector("#templateSection").content
+let fragmentSection = document.createDocumentFragment()
+
+
+
+document.addEventListener("DOMContentLoaded", () =>{
+    mostrarFuncion()
+})
+
+
+const mostrarFuncion = async () =>{
+    try{
+        const info = await fetch("api2.json")
+        const resu = await info.json()
+        //console.log(resu) 
+        mostrarDetalleUno(resu)
+
+        document.addEventListener("click", (e)=>{
+            if(e.target.id === "bot1"){
+                console.log(" Presionaste uno ")
+                sectionB.textContent = mostrarDetalleUno(resu)
+                mostrarDetalleUno(resu)
+
+            }else if(e.target.id === "bot2"){
+                console.log(" Presionaste dos ")
+                sectionB.textContent = mostrarDetalleDos(resu)
+                mostrarDetalleDos(resu)
+            }
+        })
+
+    }catch{
+        console.log(" ERROR DE CARGA")
+    }
+}
+
+
+
+const mostrarDetalleUno = (resu)=>{
+    //console.log(resu)
+
+    templateSection.querySelector("#BNombre").textContent = resu.data[0].first_name
+    templateSection.querySelector("#BApellido").textContent = resu.data[0].last_name
+    templateSection.querySelector("#BCorreo").textContent = resu.data[0].email
+    templateSection.querySelector("#BPhone").textContent = resu.data[0].phone
+
+    let cloneTemplate = templateSection.cloneNode(true)
+    fragmentSection.appendChild(cloneTemplate)
+    sectionB.appendChild(fragmentSection)
+   
+}
+
+const mostrarDetalleDos = (resu)=>{
+    //console.log(resu)
+
+    templateSection.querySelector("#BNombre").textContent = resu.data[1].first_name
+    templateSection.querySelector("#BApellido").textContent = resu.data[1].last_name
+    templateSection.querySelector("#BCorreo").textContent = resu.data[1].email
+    templateSection.querySelector("#BPhone").textContent = resu.data[1].phone
+
+    let cloneTemplate = templateSection.cloneNode(true)
+    fragmentSection.appendChild(cloneTemplate)
+    sectionB.appendChild(fragmentSection)
+   
+}
