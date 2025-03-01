@@ -688,7 +688,7 @@ contSectionBloqueB
   max-width: 1440px;
   padding: 20px 0px;
   margin: auto;
-  background: grey;
+  background: rgb(82, 76, 76);
 }
 .contSection .contSectionBloqueA {
   width: 500px;
@@ -708,6 +708,17 @@ contSectionBloqueB
   margin: 20px auto;
   padding: 20px;
   background: rgb(197, 197, 197);
+}
+.contSection .contSectionBloqueB .sectionB {
+  width: 100%;
+  padding: 10px 0px;
+  background: rgb(144, 144, 144);
+}
+.contSection .contSectionBloqueB .sectionB .text {
+  padding: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: black;
+  font-size: 30px;
 }
 
 /*

@@ -22,7 +22,7 @@ contSectionBloqueB
     max-width: 1440px;
     padding: 20px 0px;
     margin: auto;
-    background: grey;
+    background: rgb(82, 76, 76);
     .contSectionBloqueA{
         width: 500px;
         padding: 10px 0px;
@@ -41,5 +41,16 @@ contSectionBloqueB
         margin: 20px auto;
         padding: 20px;
         background: rgb(197, 197, 197);
+        .sectionB{
+            width: 100%;
+            padding: 10px 0px;
+            background: rgb(144, 144, 144);
+            .text{
+                padding: 10px;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                color: black;
+                font-size: 30px;
+            }
+        }
     }
 }
