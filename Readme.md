@@ -9,4 +9,4 @@ Cada acceso o cambio en el DOM es costoso en términos de rendimiento.
 
 ✔️ Mejor:
 
-Captura 1222
+Captura 1222465465
